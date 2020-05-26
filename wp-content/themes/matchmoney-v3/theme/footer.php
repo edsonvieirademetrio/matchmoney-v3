@@ -16,7 +16,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-bb.png" alt="Banco do Brasil">
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-pinheiro-neto.png" alt="Pinheiro Neto">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro1.png" alt="Parceria com a Google Cloud">
             </div>
         </div>
         <div class="col-xl-3">

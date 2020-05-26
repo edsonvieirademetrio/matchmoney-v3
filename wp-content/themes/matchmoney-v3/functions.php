@@ -199,14 +199,14 @@ function classMyMenuA( $atts, $item, $args ) {
 }
 add_filter( 'nav_menu_link_attributes', 'classMyMenuA', 10, 3 );
 
-/*Personalizar produtos */
+/****Personalizar produtos *******/
 /* Remove opções adicionais*/
-function remove_gallery_and_product_images() {
-	if ( is_product() ) {
-		remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
-		}
-	}
-add_action('loop_start', 'remove_gallery_and_product_images');
+// function remove_gallery_and_product_images() {
+// 	if ( is_product() ) {
+// 		remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
+// 		}
+// 	}
+// add_action('loop_start', 'remove_gallery_and_product_images');
 /*Remove informações adicionais */
 function bbloomer_remove_product_tabs( $tabs ) {
     unset( $tabs['additional_information'] ); 

@@ -144,6 +144,12 @@ h6{
 .bg-gray-light{
     background-color: #fafafa;
 }
+.bg-white{
+    background-color: #fff;
+}
+.bg-gray{
+    background-color: gray;
+}
 
 /*Margins e paddings*/
 .mb-40{
@@ -170,6 +176,17 @@ h6{
 .mt-10{
     margin-top: 10px !important;
 }
+.mt-25-vh{
+    margin-top: 5%;
+}
+.pt-25-vh{
+    padding-top: 25vh;
+}
+/*** Header ***/
+.logo-header-mm {
+    width: 195px;
+}
+
 
 /**Footer**/
 ul.menu-footer{
@@ -204,3 +221,11 @@ ul.menu-footer{
     width: 353px;
     height: 200px;
 }
+.bg-img-fluxo{
+    background: url(./../assets/v3/img/bg-fluxo.png);
+    background-size: cover;
+    min-height: 365px;
+}
+
+/*** PRODUTOS ***/
+

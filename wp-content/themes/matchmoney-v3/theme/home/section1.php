@@ -23,8 +23,8 @@
                 Prêmios e<br>Parcerias
             </h5>
         </div>
-        <div class="col-xl-2">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro1.png" alt="">
+        <div class="col-xl-2 bg-gray">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-pinheiro-neto.png" alt="Pinheiro Neto">
         </div>
         <div class="col-xl-2">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro2.png" alt="">
