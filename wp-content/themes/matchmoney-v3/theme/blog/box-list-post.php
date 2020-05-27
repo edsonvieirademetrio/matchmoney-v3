@@ -1,21 +1,27 @@
 <div class="">
-    <div class="box-post">
-        <div class="date-post text-white blue-gradient py-1 text-center rounded-8">
-            <?php echo get_the_date(''); ?>
-        </div>
-        <a href="<?php the_permalink(); ?>">
-            <div class="thumb-post rounded-8" style="background-image: url('<?php the_post_thumbnail_url(); ?>'); width: 100%; height: 280px; background-size: cover;background-position: center;">
-            
+    <div class="box-post destaque">   
+        <div class="row mb-30">
+            <div class="col-xl-6">
+                <a href="<?php the_permalink(); ?>">
+                    <div class="thumb-post rounded-8" style="background-image: url('<?php the_post_thumbnail_url(); ?>'); width: 100%; height: 280px; background-size: cover;background-position: center;">
+                    
+                    </div>                    
+                </a>
             </div>
-        </a>
-        <div class="title-post py-2">
-            <h3 class="font-weight-bold color-blue-light text-left"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        </div>
-        <div class="excerpt-post py-2 color-gray">
-            <?php the_excerpt(); ?>
-        </div>
-        <div class="read-more py-2 color-orange">
-            <a href="<?php the_permalink(); ?>">Ler mais</a>
-        </div>
+            <div class="col-xl-6">
+                <div class="category-blog color-gray">
+                    <?php echo the_category('<span class="color-gray"></span>, '); ?>
+                </div>
+                <div class="title-post py-3">
+                    <h3 class="font-default-bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                </div>
+                <div class="excerpt-post color-gray">
+                    <h5><?php the_excerpt(''); ?></h5>
+                </div>
+                <div class="date-blog">
+                    <?php echo get_the_date('d.m.Y'); ?>
+                </div>
+            </div>
+        </div>                    
     </div>
 </div>
