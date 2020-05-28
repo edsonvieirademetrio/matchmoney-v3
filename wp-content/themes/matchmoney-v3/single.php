@@ -1,14 +1,6 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package matchmoney
- */
+<?php get_header(); ?>
 
-get_header('blog');
-?>
+	<?php get_template_part( 'theme/blog/sub-header' ); ?>
 
 	<div id="primary" class="content-area row">
 		<main id="main" class="site-main container">
@@ -16,7 +8,7 @@ get_header('blog');
 			while ( have_posts() ) :
 				the_post();
 
-				get_template_part( 'template-parts/content', get_post_type() );
+				get_template_part( 'theme/blog/single', get_post_type() );
 
 				the_post_navigation();
 
@@ -29,6 +21,8 @@ get_header('blog');
 			?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+	<?php get_template_part( 'theme/newsletter' ); ?>
 
 <?php
 //get_sidebar();

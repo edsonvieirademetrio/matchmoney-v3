@@ -14,6 +14,9 @@
                     </div>
                 </div>
             </div>
+            <div class="col-xl-6">
+            <?php get_template_part('theme/blog/menu-category'); ?>
+            </div>
         </div>               
     </div>
 </section>

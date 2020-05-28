@@ -1,4 +1,4 @@
-<section class="home-section5 pb-4 pt-5 <?php if(is_page( 'produtos' )) {echo 'bg-gray-light';}else{echo 'bg-white';}?>">
+<section class="home-section5 pb-4 pt-5 <?php if(is_page( 'produtos') || is_page( 'blog') || is_single('')) {echo 'bg-gray-light';}else{echo 'bg-white';}?>">
     <div class="container">
         <div class="row">
             <div class="col-xl-12 mb-30">
