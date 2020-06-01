@@ -5,8 +5,8 @@
                 <h2>Depoimentos</h2>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-xl box-depoimentos p-4 text-center">
+        <div class="row text-center flex-row flex-nowrap scroll-x">
+            <div class="col-xl col-6 ml-3 mb-2 box-depoimentos p-4 text-center">
                 <div class="depoimento-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/dep-1.png" alt="">
                 </div>
@@ -21,7 +21,7 @@
                 </h6>
             </div>
 
-            <div class="col-xl box-depoimentos p-4 text-center mx-5">
+            <div class="col-xl col-6 ml-3 mb-2 box-depoimentos p-4 text-center mx-5">
                 <div class="depoimento-img text-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/dep-2.png" alt="">
                 </div>
@@ -36,7 +36,7 @@
                 </h6>
             </div>
 
-            <div class="col-xl box-depoimentos p-4 text-center">
+            <div class="col-xl col-6 ml-3 mb-2 box-depoimentos p-4 text-center">
                 <div class="depoimento-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/dep-3.png" alt="">
                 </div>

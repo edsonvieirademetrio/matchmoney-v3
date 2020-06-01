@@ -17,25 +17,25 @@
     </div>    
 </section>
 <section class="home-section1-1 container py-5">
-    <div class="row text-center justify-content-center pb-4">
-        <div class="col-xl-2">
+    <div class="row text-center justify-content-center pb-4 px-3">
+        <div class="col-xl-2 d-none d-xl-inline">
             <h5 class="text-uppercase color-gray-light">
                 Prêmios e<br>Parcerias
             </h5>
         </div>
-        <div class="col-xl-2 bg-gray">
+        <div class="col-xl-2 bg-gray col-6 mb-3">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-pinheiro-neto.png" alt="Pinheiro Neto">
         </div>
-        <div class="col-xl-2">
+        <div class="col-xl-2 col-6 mb-3">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro2.png" alt="">
         </div>
-        <div class="col-xl-2">
+        <div class="col-xl-2 col-6 mb-3">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro3.png" alt="">
         </div>
-        <div class="col-xl-2">
+        <div class="col-xl-2 col-6 mb-3">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro4.png" alt="">
         </div>
-        <div class="col-xl-2">
+        <div class="col-xl-2 col-6 mb-3">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro5.png" alt="">
         </div>
         

@@ -1,5 +1,5 @@
 <section class="footer-section container">
-    <div class="row">
+    <div class="row text-center text-xl-left">
         <div class="col-xl-3">
             <div class="col-title-footer mb-20">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-matchmoney.png" alt="Matchmoney">
@@ -12,11 +12,13 @@
                 Rua José Milton Pizzi, 126, Sala 14<br>
                 Itatiba - SP, CEP 13251-211
             </h6>
-            <div class="mb-10">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-bb.png" alt="Banco do Brasil">
-            </div>
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro1.png" alt="Parceria com a Google Cloud">
+            <div class="row py-2">
+                <div class="mb-10 col-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-bb.png" alt="Banco do Brasil">
+                </div>
+                <div class="col-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/lg-parceiro1.png" alt="Parceria com a Google Cloud">
+                </div>
             </div>
         </div>
         <div class="col-xl-3">
@@ -74,7 +76,7 @@
         <div class="col-xl-12">
             <hr>
         </div>
-        <div class="col-xl-6 text-left">
+        <div class="col-xl-6 col-6 text-left">
             <span>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/icon-brazil.png" alt="Brasil">
             </span>
@@ -82,7 +84,7 @@
                 Português
             </span>
         </div>
-        <div class="col-xl-6 text-right">
+        <div class="col-xl-6 col-6 text-right">
             <span class="px-2">
                 <a href="https://www.linkedin.com/company/matchmoney" target="blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/icon-linkedin.png" alt="Linkedin Matchmoney">
@@ -102,10 +104,10 @@
         <div class="col-xl-12">
             <hr>
         </div>
-        <h6 class="col-xl-6 text-left">
+        <h6 class="col-xl-6 col-12 text-center text-xl-left">
             MatchMoney Intermediação de Contratos LTDA.
         </h6>
-        <div class="col-xl-6 text-right">
+        <div class="col-xl-6 col-12 text-center text-xl-right">
             <a href="">
                 Política de Privacidade
             </a> 

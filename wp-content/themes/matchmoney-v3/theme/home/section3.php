@@ -10,8 +10,8 @@
                 </h4>
             </div>
         </div>
-        <div class="row bg-img-fluxo my-auto align-middle">
-            <div class="col-xl-4 text-center mt-25-vh p-4">
+        <div class="row bg-img-fluxo my-auto align-middle flex-row flex-nowrap scroll-x">
+            <div class="col-xl-4 col-6 text-center mt-25-vh p-4 box-border-fluxo ml-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/home-icon-money.png" alt=""
                 class="mb-10">
                 <h3 class="mb-10">Investidor</h3>
@@ -20,7 +20,7 @@
                 </h6>
     
             </div>
-            <div class="col-xl-4 text-center mt-25-vh p-4">
+            <div class="col-xl-4 col-6 text-center mt-25-vh p-4 box-border-fluxo ml-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/home-icon-link.png" alt=""
                 class="mb-10">
                 <h3 class="mb-10">MatchMoney</h3>
@@ -29,7 +29,7 @@
                 </h6>
     
             </div>
-            <div class="col-xl-4 text-center mt-25-vh p-4">
+            <div class="col-xl-4 col-6 text-center mt-25-vh p-4 box-border-fluxo ml-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/home-icon-bank.png" alt=""
                 class="mb-10">
                 <h3 class="mb-10">Empresas</h3>
