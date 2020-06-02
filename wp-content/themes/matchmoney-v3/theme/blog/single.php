@@ -1,5 +1,5 @@
 <section id="section-1" class="my-1">
-	<div class="container content row">
+	<div class="container content">
         <!--Grid row-->
         <div class="title-content blog">
             <div class="row pt-15">

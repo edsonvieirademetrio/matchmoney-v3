@@ -263,13 +263,18 @@ a.item.menu-category.blog {
     margin-right: 2px;
 }
 div#box-search-blog{
-    padding-top: 5px;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
 }
 a.float-left.btn-search.blog {
     padding-left: 4px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
+}
+nav.navigation.post-navigation {
+    padding: 0 5%;
 }
 
 /************MOBILE***************/
