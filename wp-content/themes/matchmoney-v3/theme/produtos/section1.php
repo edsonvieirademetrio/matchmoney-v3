@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-xl-4 ">
+            <div class="col-12 col-xl-4 pl-4">
                 <div class="row py-3 bg-white">
                     <div class="col-3 col-xl-4 pl-4">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/icon-padlock.png" alt="Garantia MatchMoney">

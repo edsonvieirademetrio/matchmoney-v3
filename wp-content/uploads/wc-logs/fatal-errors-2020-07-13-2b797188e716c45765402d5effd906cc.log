@@ -1,0 +1,20 @@
+2020-07-13T19:10:15+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/woocommerce/myaccount/form-login.php on line 73
+
+2020-07-13T19:10:30+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/woocommerce/myaccount/form-login.php on line 73
+
+2020-07-13T19:10:34+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/woocommerce/myaccount/form-login.php on line 73
+
+2020-07-13T19:11:11+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/woocommerce/myaccount/form-login.php on line 73
+
+2020-07-13T19:19:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/functions.php:381
+Stack trace:
+#0 /home/evd/Local Sites/matchmoney/app/public/wp-includes/shortcodes.php(343): the_acf_field_wp('', '', 'php-acf-field-1')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/evd/Local Sites/matchmoney/app/public/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(php\\-a...', 'do_shortcode_ta...', '[php-acf-field-...')
+#3 /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/archive-product.php(23): do_shortcode('[php-acf-field-...')
+#4 /home/evd/Local Sites/matchmoney/app/public/wp-includes/template-loader.php(106): include('/home/evd/Local...')
+#5 /home/evd/Local Sites/matchmoney/app/public/wp-blog-header.php(19): require_once('/home/evd/Local...')
+#6 /home/evd/Local Sites/matchmoney/app/public/index.php(17): require('/home/evd/Local...')
+#7 {main}
+  thrown in /home/evd/Local Sites/matchmoney/app/public/wp-content/themes/matchmoney-v3/functions.php on line 381
+
