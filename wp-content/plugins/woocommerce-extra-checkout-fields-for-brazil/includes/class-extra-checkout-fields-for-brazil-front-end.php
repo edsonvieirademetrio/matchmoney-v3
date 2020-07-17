@@ -154,10 +154,9 @@ class Extra_Checkout_Fields_For_Brazil_Front_End {
 			$new_fields['heading_address_billing_details'] = array(
 				'label'    => __( 'Endereço', 'woocommerce-extra-checkout-fields-for-brazil' ),
 				'label_class'    => array( 'heading-address-billing-details' ),
-				'input_class'    => array( 'input-heading-address-billing-details' ),
-				'required' => true,
+				'input_class'    => array( 'input-heading-address-billing-details' ),				
 				'type'     => 'text',
-				'priority' => 30,
+				'priority' => 34,
 			);
 
 			if ( 1 === $person_type || 3 === $person_type ) {

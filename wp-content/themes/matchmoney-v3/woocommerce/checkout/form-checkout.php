@@ -13,15 +13,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 }
 
 ?>
-<div class="row justify-content-center text-center">
-	<div class="col-xl-12">
-		<span class="icon-checkout mx-4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/v3/img/icon-checkout1.png" alt=""></span>
-		<span class="icon-checkout mx-4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/v3/img/icon-checkout2.png" alt=""></span>
-		<span class="icon-checkout mx-4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/v3/img/icon-checkout5.png" alt=""></span>		
-		<span class="icon-checkout mx-4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/v3/img/icon-checkout3.png" alt=""></span>
-		<span class="icon-checkout mx-4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/v3/img/icon-checkout4.png" alt=""></span>
-	</div>
-</div>
+
+<?php get_template_part('theme/woo/icons-checkout'); ?>
 
 <form name="checkout" method="post" class="checkout woocommerce-checkout"
 	action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">

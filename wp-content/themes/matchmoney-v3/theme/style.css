@@ -130,6 +130,9 @@ h6{
 a{
     color: #303030;
 }
+body, h1, h2, h3, h4, h5, h6 {
+    line-height: 145% !important;
+}
 /*Cores*/
 .color-gray-light{
     color: #999 !important;
@@ -139,6 +142,12 @@ a{
 }
 .color-orange{
     color: #ff7539 !important;
+}
+.color-blue{
+    color: #05afc2 !important;
+}
+.bg-color-blue{
+    background-color: #05afc2 !important;
 }
 .bg-gradient-blue{
     background-image: linear-gradient(202deg, #0079b8 193%, #05afc2 6%);
@@ -225,7 +234,7 @@ ul.menu-footer{
     background-color: #ffffff;  
 }
 
-/********HOME*****/
+/****** HOME *****/
 .home-section1{
     background: url(./../assets/v3/img/banner1-home.jpg);
     background-size: cover;
@@ -391,4 +400,7 @@ label.heading-address-billing-details::before {
     white-space: normal;
     word-wrap: break-word;
     color: inherit;
+}
+footer .footer-woo {
+    box-shadow: 0 -1px 0 0 #d5d5d5;
 }

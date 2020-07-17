@@ -1,13 +1,13 @@
-<div class="bg-gray-light color-gray pt-5 pb-4">
+<div class="bg-gray-light color-gray pt-5 pb-4 footer-woo">
     <section class="footer-woo-section container">
         <div class="row mb-4">
             <div class="col-xl-4">
                 <div class="font-weight-bold mb-2">
                     <strong>Meios de Pagamento</strong>
                 </div>
-                <span class="mr-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/icon-bol.png" alt="" style="width: 43px;">
-                </span>
+                <!-- <span class="mr-4">
+                    <img src="<?php //echo get_template_directory_uri(); ?>/assets/v3/img/icon-bol.png" alt="" style="width: 43px;">
+                </span> -->
                 <span>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/v3/img/transfer.png" alt="">
                 </span>
